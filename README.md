@@ -13,5 +13,12 @@ Second task, Bootcamp Web Developer UCF.
 I created the body of the task and start add CSS setting 
 
 <img width="856" alt="Screen Shot 2021-10-31 at 7 41 55 PM" src="https://user-images.githubusercontent.com/91921941/139605147-cae90983-629a-4971-8409-fa3d496e860c.png">
+ 
+ added picture of me, 
+ add link to my two project Run-Buddy and Urban Octo 
+ Problably   make a responsive layout was the most challange part
+ 
+ 
+<img width="560" alt="Screen Shot 2021-10-31 at 7 47 21 PM" src="https://user-images.githubusercontent.com/91921941/139605403-d0baf6cb-c8ad-48f1-8f9f-e9f822feeee0.png">
 
-
+ 
