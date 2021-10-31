@@ -22,3 +22,10 @@ I created the body of the task and start add CSS setting
 <img width="560" alt="Screen Shot 2021-10-31 at 7 47 21 PM" src="https://user-images.githubusercontent.com/91921941/139605403-d0baf6cb-c8ad-48f1-8f9f-e9f822feeee0.png">
 
  Really challenge task, special for the perpective of Graphic Designer, than is not happy until evething look good, but is a curb lesson thant need to succeed.
+
+
+Url: https://acmcalvo.github.io/Module-2-Portfolio/
+
+recorder of my Website https://watch.screencastify.com/v/LIFeoJpbemv3w9pf5pKm
+
+Gitub repositorio: https://github.com/acmcalvo/Module-2-Portfolio.git
