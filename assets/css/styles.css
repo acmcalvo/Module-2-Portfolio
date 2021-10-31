@@ -1,0 +1,213 @@
+:root {
+  --secondary-color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .hero {
+      
+      background-image: url('../images/cover-project-2.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      background-attachment: scroll;
+      
+    }
+  
+    .hero-cta {
+      width: 35%;
+      text-align: unset;
+      margin: 6.1%;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    .hero-cta h2 {
+      font-style: italic;
+      font-size: 55px;
+      color: black;
+      }
+
+      .hero-cta h3 {
+        font-style: italic;
+        font-size: 20px;
+        color: rgb(52, 132, 159);
+        }
+  
+/* End of Header */
+
+  /* Style the top navigation bar */
+  .navbar {
+    padding: 10px;
+     display: flex;
+     position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+     background-color: #333;
+     z-index: 9999;
+   
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 
+  /* Sidebar/left column / Create unequal columns next to each other */
+
+  
+
+  .side {
+    flex: 30%;
+    background-color: rgb(156, 155, 155) ;
+    padding: 20px;
+  }
+
+  .float-right {
+    float: right;
+    margin-left: 25px;
+}
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .media {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.media .content {
+    flex: 1;
+    padding: 10px;
+}
+.image img {
+  max-width: 100%;
+}
+
+  
+ /* FOOTER STYLES START */
+footer {
+  background: rgb(167, 165, 165);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+/* END FOOTER STYLES */
+  
+  /* Media Query - when the screen is less than 768px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+  .navbar {   
+      flex-direction: row;
+    }
+    .hero {
+      padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+     .hero-cta {
+      width: 35%;
+      text-align: right;
+      margin: 6.1%;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.2;
+     }
+    .header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    } 
+    header h1 {
+      width: 20%;
+      text-align:left;
+    }
+  }
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 575px) {
+  .navbar {   
+    flex-direction: row;
+  }
+  .hero {
+    flex-wrap: wrap;
+    background-size: center; 
+     height: 300px;
+}
+   .hero-cta {
+    flex: 0 50;
+   }
+
+   .hero-cta h2 {
+   display: none;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    }
+   
+    .hero-cta h3 {
+    display: none;
+    width: 10%;
+    height: 100px;
+      }
+
+  .header {
+   width: 100%;
+  }
+  header h1 {
+    width: 50%;
+    text-align: center;
+  }
+}
